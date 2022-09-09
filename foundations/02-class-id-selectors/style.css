@@ -2,3 +2,8 @@
     background-color: #99000080;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
+
+#fake {
+    color: #0000ff;
+    font-size: 36px
+}
