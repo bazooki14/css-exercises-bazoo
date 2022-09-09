@@ -3,6 +3,10 @@
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
+.top.bottom {
+    font-size: 24px;
+}
+
 #fake {
     color: #0000ff;
     font-size: 36px
