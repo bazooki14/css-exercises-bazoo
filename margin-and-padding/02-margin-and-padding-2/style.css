@@ -33,3 +33,7 @@ button {
   display: block;
   margin: auto;
 }
+
+.button-container span {
+  padding-left: 170px;
+}
