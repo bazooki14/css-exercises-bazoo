@@ -30,6 +30,10 @@ div {
 .links {
   display: flex;
   flex-flow: row nowrap;
+  padding-left: 16px;
+  justify-content: space-between;
+  flex: auto;
+  width: 250px;
 }
 
 .right-side {
