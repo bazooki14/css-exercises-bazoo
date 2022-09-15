@@ -19,6 +19,13 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
 }
 
 img {
