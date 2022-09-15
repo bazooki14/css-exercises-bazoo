@@ -25,6 +25,7 @@ div {
 
 .left-side {
   justify-content: flex-start;
+  padding-left: 6px;
 }
 
 .links {
