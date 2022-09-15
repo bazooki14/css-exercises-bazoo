@@ -20,6 +20,10 @@ ul {
   flex-flow: row nowrap;
 }
 
+li {
+  
+}
+
 a {
   font-size: 22px;
   background: white;
