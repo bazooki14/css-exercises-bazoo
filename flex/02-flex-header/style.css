@@ -20,8 +20,8 @@ ul {
   flex-flow: row nowrap;
 }
 
-li {
-  
+.header ul li {
+  align-content: center;
 }
 
 a {
