@@ -32,4 +32,5 @@ a {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  justify-items: flex-start;
 }
