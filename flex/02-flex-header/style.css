@@ -18,6 +18,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-flow: row nowrap;
+  padding: 8px;
 }
 
 a {
