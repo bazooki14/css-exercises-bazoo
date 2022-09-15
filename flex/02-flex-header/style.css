@@ -20,14 +20,16 @@ ul {
   flex-flow: row nowrap;
 }
 
-.header ul li {
-  align-content: center;
-}
-
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
