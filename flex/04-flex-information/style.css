@@ -9,11 +9,14 @@ body {
 }
 
 .images {
-
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .img {
-
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 img {
