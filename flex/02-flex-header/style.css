@@ -38,3 +38,10 @@ a {
   align-items: center;
   justify-items: flex-start;
 }
+
+.right-links{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-items: flex-end;
+}
