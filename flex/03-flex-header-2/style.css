@@ -38,6 +38,9 @@ div {
 
 .right-side {
   justify-content: flex-end;
+  justify-content: space-between;
+  width: 220px;
+  padding-right: 6px;
 }
 
 .profile-image {
