@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  flex: auto;
 }
 
 .header {
@@ -29,13 +30,61 @@ body {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-flow: row nowrap;  
+  flex: auto;
+}
+
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  list-style: none;
+  gap: 16px
+}
+
+li {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+a {
+  text-decoration-line: none;
+  font-size: 24px;
+  color: white;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.cards {
+  padding: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  flex: auto;
+  gap: 26px
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 26px;
+  max-width: 300px;
+  display: flex;
 }
