@@ -3,9 +3,15 @@
 .header {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .left-links {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.right-links {
   display: flex;
   flex-flow: row nowrap;
 }
