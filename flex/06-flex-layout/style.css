@@ -4,21 +4,29 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+
 }
 
 .left-links {
   display: flex;
   flex-flow: row nowrap;
-  gap: 8px;
+  justify-content: flex-start;
 }
 
 .right-links {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 
 a {
   text-decoration-line: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 body {
@@ -26,6 +34,15 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 img {
