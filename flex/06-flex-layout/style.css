@@ -5,6 +5,11 @@
   flex-flow: row nowrap;
 }
 
+.left-links {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 body {
   height: 100vh;
   margin: 0;
