@@ -57,6 +57,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px;
 }
 
 input {
@@ -71,4 +72,5 @@ input {
   display:flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  background-color: #eeeeee;
 }
