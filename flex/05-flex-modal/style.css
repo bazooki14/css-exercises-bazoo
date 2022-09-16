@@ -22,23 +22,24 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+.insides {
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
+  gap: 16px;
+  margin: 16px;
 }
 
 .main-content {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-evenly;
+  gap: 12px;
   flex: auto;
-}
-
-.header-close {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  flex: auto;
-  flex-grow: auto;
-  flex-shrink: 0;
-  justify-content: space-between;
 }
 
 .icon {
@@ -53,6 +54,26 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+}
+
+.header-close {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  flex: auto;
+  flex-grow: auto;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  font-size: larger;
+}
+
+.text {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .close-button {
